@@ -1,6 +1,7 @@
-# Yang_Jie_FIP
 
-This is Jie's FIP for IDP level1.
+# Jie_Yang_FIP
+
+This is Jie's FIP for IDP level 1.
 
 ## Contributing
 
@@ -17,3 +18,4 @@ Yang Jie
 ## License
 
 MIT
+
