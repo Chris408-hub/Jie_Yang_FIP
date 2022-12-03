@@ -1,15 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*Remove this rule on your HTML elements as you start to fill them with content*/
-
-/* .box-color {
-	color: #fff;
-	background: #000;
-	text-align: center;
-	margin: 0;
-} */
-
 /*basic reset*/
 
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
@@ -54,7 +45,6 @@ a {
 .hidden {
 	display: none;
 }
-
 
 /*Common page elements  */
 
@@ -109,7 +99,7 @@ you work on and the intended audience, we may go as low as 320px */
 /* section1: hero */
 
 #hero-con {
-	background: url(../images/Header\ img-1.png)no-repeat bottom;
+	background: url(../images/HomePage_Mobile_assets/hero.png)no-repeat bottom;
 	height: 458px;
 }
 
@@ -132,19 +122,17 @@ you work on and the intended audience, we may go as low as 320px */
 	border: 2px solid #8F9BA6;
 }
 
-#image-slider-con {
+#news-imgae-text-con img {
+	margin-top: -2px;
+	margin-left: -2px;
+}
 
-	/* Remove as content will dictate height */
+#image-slider-con {
 	height: 640px;
 	position: relative;
 }
 
 #image-slider-con h2 {
-	/* display: block;*/
-	/* background-color: #ffffff; */
-	/* border-top: none;
-	border-left: none;
-	border-right: none;  */
 	text-align: center;
 	font-size: 22px;
 	padding-top: 70px;
@@ -153,9 +141,6 @@ you work on and the intended audience, we may go as low as 320px */
 }
 
 #image-slider-con-text {
-	/* height: 267px;
-	border: 2px solid #8F9BA6;
-	border-top: none; */
 	margin-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 10px;
@@ -203,7 +188,6 @@ you work on and the intended audience, we may go as low as 320px */
 
 #about-us-text {
 	grid-column: 1/-1;
-	/* Remove as content will dictate height */
 	height: 580px;
 	margin-top: 70px;
 	margin-bottom: 40px;
@@ -230,8 +214,6 @@ you work on and the intended audience, we may go as low as 320px */
 
 #contact-text {
 	grid-column: 1/-1;
-	/* Remove as content will dictate height */
-	/* height: 350px; */
 	margin: 50px;
 	font-size: 28px;
 	color: #666666;
@@ -243,7 +225,6 @@ you work on and the intended audience, we may go as low as 320px */
 
 #contact-form {
 	grid-column: 1/-1;
-	/* width: 428px; */
 	height: 725px;
 	background-color: #F2CEA2;
 }
@@ -296,8 +277,6 @@ input[type="submit"]:hover {
 
 #footer-logo {
 	grid-column: 1/2;
-	/* Remove as content will dictate height */
-	/* height: 80px; */
 }
 
 #footer-logo p {
@@ -343,7 +322,6 @@ input[type="submit"]:hover {
 
 #footer-nav {
 	grid-column: 2/3;
-	/* Remove as content will dictate height */
 	height: 80px;
 	margin-bottom: 100px;
 	margin-left: 50px;
@@ -369,13 +347,12 @@ input[type="submit"]:hover {
 /* section1:hero */
 
 #hero-gallery-con {
-	background: url(../images/gallery_Header\ img.png) no-repeat bottom;
+	background: url(../images/InteriorPage_Mobile_assets/gallery_hero_img.png) no-repeat bottom;
 	height: 496px;
 }
 
 #hero-gallery-text {
 	grid-column: 1/-1;
-	/* Remove as content will dictate height */
 	height: 350px;
 	margin-top: 20px;
 	font-size: 20px;
@@ -415,12 +392,17 @@ input[type="submit"]:hover {
 	grid-column: 1/-1;
 	background-color: white;
 	border: 2px solid #8F9BA6;
-	/* Remove as content will dictate height */
-	width: 388px;
+	width: 426px;
 	height: 507px;
 	margin-bottom: 20px;
 	font-size: 20px;
 	color: #8F9BA6;
+	margin-left: -20px;
+}
+
+.gallery-box img {
+	margin-top: -2px;
+	margin-left: -1px;
 }
 
 .gallery-box h3 {
